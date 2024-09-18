@@ -1,0 +1,5 @@
+<!-- res/drawable/circle_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E0E0E0" /> <!-- Background color -->
+    <corners android:radius="50dp" /> <!-- Makes the shape a perfect circle -->
+</shape>

@@ -1,0 +1,6 @@
+<!-- res/drawable/chat_bubble_left.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+    <corners android:radius="16dp" android:topLeftRadius="0dp" />
+    <padding android:left="8dp" android:top="4dp" android:right="8dp" android:bottom="4dp" />
+</shape>

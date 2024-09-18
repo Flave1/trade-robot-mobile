@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/channelsFragment">
+
+    <fragment
+        android:id="@+id/channelsFragment"
+        android:name="com.aid.trader.presentation.activity.conversational.ChannelsFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_channels">
+
+        <action
+            android:id="@+id/action_channelsFragment_to_conversationsFragment"
+            app:destination="@id/conversationsFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/conversationsFragment"
+        android:name="com.aid.trader.presentation.activity.conversational.ChannelConversationsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_channel_conversations">
+
+        <action
+            android:id="@+id/action_conversationsFragment_to_channelsFragment"
+            app:destination="@id/channelsFragment"
+            app:popUpTo="@id/channelsFragment"
+            app:popUpToInclusive="true"
+
+            />
+    </fragment>
+</navigation>

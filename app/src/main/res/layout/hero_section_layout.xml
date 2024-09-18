@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/hero_background"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/risk_free_trading_bot"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Some stuff"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRequestMediaProjection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trade Now"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:drawableRight="@drawable/ic_arrow_forward"
+        android:padding="12dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="8dp"/>
+    <Button
+        android:id="@+id/place_trade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trade Now"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:drawableRight="@drawable/ic_arrow_forward"
+        android:padding="12dp"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="8dp"/>
+
+</LinearLayout>

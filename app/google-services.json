@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619602981230",
+    "firebase_url": "https://trade-bot-d1f5e-default-rtdb.firebaseio.com",
+    "project_id": "trade-bot-d1f5e",
+    "storage_bucket": "trade-bot-d1f5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619602981230:android:6b4e772c3f39656a3c517f",
+        "android_client_info": {
+          "package_name": "com.aid.trader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619602981230-r0h2c3mvs2ta3tjnp73v3vgtg76j6gnn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aid.trader",
+            "certificate_hash": "d60636f29eaef2549fda39c6a91fa5bcba4997aa"
+          }
+        },
+        {
+          "client_id": "619602981230-70pidcj18moph00an4qmovm9atvfvm71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwniaQPWg-RdMSdMR9jHQrMwLhcdnClSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619602981230-70pidcj18moph00an4qmovm9atvfvm71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

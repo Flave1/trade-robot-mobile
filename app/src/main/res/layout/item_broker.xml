@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Icon on the left -->
+    <ImageView
+        android:id="@+id/brokerIcon"
+        android:layout_width="69dp"
+        android:layout_height="62dp"
+        android:contentDescription="Server icon"
+        android:src="@drawable/baseline_verified_user_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Server Name (Bold) -->
+    <TextView
+        android:id="@+id/brokerServerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Server Name"
+        app:layout_constraintStart_toEndOf="@id/brokerIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Login Name (Faint) -->
+    <TextView
+        android:id="@+id/accountLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="broker Login Name"
+        android:textColor="#A9A9A9"
+        app:layout_constraintStart_toEndOf="@id/brokerIcon"
+        app:layout_constraintTop_toBottomOf="@id/brokerServerName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Password (Masked) -->
+    <TextView
+        android:id="@+id/brokerPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#A9A9A9"
+        android:text="Broker Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toEndOf="@id/brokerIcon"
+        app:layout_constraintTop_toBottomOf="@id/accountLogin"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
